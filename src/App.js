@@ -16,7 +16,7 @@ class App extends Component {
             <div>
               <SideMenu />
             </div>
-            <div style={{ margin: "0 0 0 150px" }}>
+            <div style={{ margin: "10px 10px 10px 160px" }}>
               <Switch>
                 {/* Only match one */}
                 <Route exact path="/" component={Home} />
