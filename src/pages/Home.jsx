@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import StatisticData from "../components/StatisticData";
+import ContractList from "../components/ContractList";
 
 class Home extends Component {
   state = {};
@@ -7,6 +8,7 @@ class Home extends Component {
     return (
       <div>
         <StatisticData />
+        <ContractList />
       </div>
     );
   }
