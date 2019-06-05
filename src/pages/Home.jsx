@@ -8,7 +8,9 @@ class Home extends Component {
     return (
       <div>
         <StatisticData />
-        <ContractList />
+        <div class="row">
+          <ContractList />
+        </div>
       </div>
     );
   }

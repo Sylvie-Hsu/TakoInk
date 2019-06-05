@@ -19,6 +19,12 @@ const items = [
     description:
       "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
     meta: "ROI: 27%"
+  },
+  {
+    header: "Smart Contract - June",
+    description:
+      "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
+    meta: "ROI: 27%"
   }
 ];
 
@@ -40,6 +46,12 @@ const contracts = [
     description:
       "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
     meta: "ROI: 27%"
+  },
+  {
+    header: "Smart Contract - June",
+    description:
+      "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
+    meta: "ROI: 27%"
   }
 ];
 const smarts = [
@@ -54,6 +66,12 @@ const smarts = [
     description:
       "Bring to the table win-win survival strategies to ensure proactive domination.",
     meta: "ROI: 34%"
+  },
+  {
+    header: "Smart Contract - June",
+    description:
+      "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
+    meta: "ROI: 27%"
   }
 ];
 
@@ -75,13 +93,19 @@ const codes = [
     description:
       "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
     meta: "ROI: 27%"
+  },
+  {
+    header: "Smart Contract - June",
+    description:
+      "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.",
+    meta: "ROI: 27%"
   }
 ];
 
 class ContractList extends Component {
   state = {};
   render() {
-    var cardWidth = document.body.clientWidth - 170 - 420;
+    var cardWidth = document.body.clientWidth - 170;
     return (
       <Card
         style={{
