@@ -1,9 +1,36 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
 
 class Editor extends Component {
-  state = {};
+  constructor() {
+    super();
+    this.state = {
+      iFrameHeight: "0px"
+    };
+  }
+
   render() {
-    return <div>Editor</div>;
+    return (
+      <iframe
+        style={{
+          width: "100%",
+          height: this.state.iFrameHeight,
+          overflow: "visible"
+        }}
+        onLoad={() => {
+          const obj = ReactDOM.findDOMNode(this);
+          this.setState({
+            iFrameHeight: obj.contentWindow.document.body.scrollHeight + "px"
+          });
+        }}
+        ref="iframe"
+        src=""
+        width="100%"
+        height={this.state.iFrameHeight}
+        scrolling="no"
+        frameBorder="0"
+      />
+    );
   }
 }
 
