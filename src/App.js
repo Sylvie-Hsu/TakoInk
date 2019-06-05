@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App" class="ui container">
-          <div class="ui grid">
-            <div class="two wide column">
+        <div className="App">
+          <div>
+            <div>
               <SideMenu />
             </div>
-            <div class="fourteen wide column">
+            <div style={{ margin: "0 0 0 150px" }}>
               <Switch>
                 {/* Only match one */}
                 <Route exact path="/" component={Home} />
