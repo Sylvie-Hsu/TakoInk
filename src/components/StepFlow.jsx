@@ -9,8 +9,8 @@ class StepFlow extends Component {
         <Step>
           <Icon name="truck" />
           <Step.Content>
-            <Step.Title>Shipping</Step.Title>
-            <Step.Description>Choose your shipping options</Step.Description>
+            <Step.Title>Finding</Step.Title>
+            <Step.Description>Choose your finding options</Step.Description>
           </Step.Content>
         </Step>
         <Step>

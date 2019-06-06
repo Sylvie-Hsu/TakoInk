@@ -34,6 +34,12 @@ class SideMenu extends Component {
             Editor
           </Menu.Item>
         </NavLink>
+        <NavLink to="/validate">
+          <Menu.Item as="a">
+            <Icon name="bug" />
+            Validate
+          </Menu.Item>
+        </NavLink>
         <NavLink to="/deploy">
           <Menu.Item as="a">
             <Icon name="paper plane" />

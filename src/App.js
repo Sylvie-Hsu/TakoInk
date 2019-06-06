@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import SideMenu from "./components/SideMenu";
 import Home from "./pages/Home";
 import Editor from "./pages/Editor";
+import Validate from "./pages/Validate";
 import Deploy from "./pages/Deploy";
 import Market from "./pages/Market";
 
@@ -21,6 +22,7 @@ class App extends Component {
                 {/* Only match one */}
                 <Route exact path="/" component={Home} />
                 <Route path="/editor" component={Editor} />
+                <Route path="/validate" component={Validate} />
                 <Route path="/deploy" component={Deploy} />
                 <Route path="/market" component={Market} />
               </Switch>

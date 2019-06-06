@@ -17,11 +17,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/steve.jpg"
                 />
-                <Card.Header>Steve Sanders</Card.Header>
-                <Card.Meta>Friends of Elliot</Card.Meta>
+                <Card.Header>Dispatch Contract</Card.Header>
+                <Card.Meta>Contract of dispatch actions.</Card.Meta>
                 <Card.Description>
-                  Steve wants to add you to the group{" "}
-                  <strong>best friends</strong>
+                  This contract is used to dispatch action in{" "}
+                  <strong>different ways</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -42,10 +42,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/molly.png"
                 />
-                <Card.Header>Molly Thomas</Card.Header>
-                <Card.Meta>New User</Card.Meta>
+                <Card.Header>Transfer Contract</Card.Header>
+                <Card.Meta>Contract of assets transfer.</Card.Meta>
                 <Card.Description>
-                  Molly wants to add you to the group <strong>musicians</strong>
+                  This contract is used to transfer assets which assure{" "}
+                  <strong>security</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -66,10 +67,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/jenny.jpg"
                 />
-                <Card.Header>Jenny Lawrence</Card.Header>
-                <Card.Meta>New User</Card.Meta>
+                <Card.Header>New Contract</Card.Header>
+                <Card.Meta>Contract of dispatch actions.</Card.Meta>
                 <Card.Description>
-                  Jenny requested permission to view your contact details
+                  This contract is used to dispatch action in{" "}
+                  <strong>different ways</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -90,11 +92,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/steve.jpg"
                 />
-                <Card.Header>Steve Sanders</Card.Header>
-                <Card.Meta>Friends of Elliot</Card.Meta>
+                <Card.Header>Transfer Contract</Card.Header>
+                <Card.Meta>Contract of assets transfer.</Card.Meta>
                 <Card.Description>
-                  Steve wants to add you to the group{" "}
-                  <strong>best friends</strong>
+                  This contract is used to transfer assets which assure{" "}
+                  <strong>security</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -115,10 +117,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/molly.png"
                 />
-                <Card.Header>Molly Thomas</Card.Header>
-                <Card.Meta>New User</Card.Meta>
+                <Card.Header>Center Contract</Card.Header>
+                <Card.Meta>Contract of dispatch actions.</Card.Meta>
                 <Card.Description>
-                  Molly wants to add you to the group <strong>musicians</strong>
+                  This contract is used to dispatch action in{" "}
+                  <strong>different ways</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -139,10 +142,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/jenny.jpg"
                 />
-                <Card.Header>Jenny Lawrence</Card.Header>
-                <Card.Meta>New User</Card.Meta>
+                <Card.Header>Transfer Contract</Card.Header>
+                <Card.Meta>Contract of assets transfer.</Card.Meta>
                 <Card.Description>
-                  Jenny requested permission to view your contact details
+                  This contract is used to transfer assets which assure{" "}
+                  <strong>security</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -163,11 +167,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/steve.jpg"
                 />
-                <Card.Header>Steve Sanders</Card.Header>
-                <Card.Meta>Friends of Elliot</Card.Meta>
+                <Card.Header>Token Contract</Card.Header>
+                <Card.Meta>Contract of dispatch actions.</Card.Meta>
                 <Card.Description>
-                  Steve wants to add you to the group{" "}
-                  <strong>best friends</strong>
+                  This contract is used to dispatch action in{" "}
+                  <strong>different ways</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -188,10 +192,11 @@ class ContractMarket extends Component {
                   size="mini"
                   src="https://react.semantic-ui.com/images/avatar/large/molly.png"
                 />
-                <Card.Header>Molly Thomas</Card.Header>
-                <Card.Meta>New User</Card.Meta>
+                <Card.Header>Transfer Contract</Card.Header>
+                <Card.Meta>Contract of assets transfer.</Card.Meta>
                 <Card.Description>
-                  Molly wants to add you to the group <strong>musicians</strong>
+                  This contract is used to transfer assets which assure{" "}
+                  <strong>security</strong>.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
