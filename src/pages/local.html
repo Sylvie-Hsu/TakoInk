@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <ul id="adjustable-list">
+      <li>
+        <span>1</span>
+        <button class="up">UP</button>
+        <button class="down">DOWN</button>
+      </li>
+      <li>
+        <span>2</span>
+        <button class="up">UP</button>
+        <button class="down">DOWN</button>
+      </li>
+      <li>
+        <span>3</span>
+        <button class="up">UP</button>
+        <button class="down">DOWN</button>
+      </li>
+    </ul>
+  </body>
+  <script>
+    var initAdjustableList = () => {
+      var upBtns = document.getElementsByClassName("up");
+      var downBtns = document.getElementsByClassName("down");
+      var parent = document.getElementById("adjustable-list");
+      for (let upBtn of upBtns) {
+        upBtn.addEventListener("click", function(ev) {
+          var target = ev.target.parentNode;
+          if ($(target).prev().length != 0) {
+            var prevNode = $(target).prev();
+            $(prevNode).before(target);
+          } else {
+            $(parent).append(target);
+          }
+        });
+      }
+      for (let downBtn of downBtns) {
+        downBtn.addEventListener("click", function(ev) {
+          var target = ev.target.parentNode;
+          if ($(target).next().length != 0) {
+            var nextNode = $(target).next();
+            $(nextNode).after(target);
+          } else {
+            $(parent).prepend(target);
+          }
+        });
+      }
+    };
+    initAdjustableList();
+  </script>
+</html>

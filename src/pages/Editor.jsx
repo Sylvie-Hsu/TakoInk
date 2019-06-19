@@ -5,10 +5,9 @@ class Editor extends Component {
   constructor() {
     super();
     this.state = {
-      iFrameHeight: "0px"
+      iFrameHeight: "1000px"
     };
   }
-
   render() {
     return (
       <iframe
@@ -17,14 +16,8 @@ class Editor extends Component {
           height: this.state.iFrameHeight,
           overflow: "visible"
         }}
-        onLoad={() => {
-          const obj = ReactDOM.findDOMNode(this);
-          this.setState({
-            iFrameHeight: obj.contentWindow.document.body.scrollHeight + "px"
-          });
-        }}
         ref="iframe"
-        src=""
+        src="./local.html"
         width="100%"
         height={this.state.iFrameHeight}
         scrolling="no"
