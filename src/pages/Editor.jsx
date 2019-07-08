@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-class Editor extends Component {
+class Editor1 extends Component {
   constructor() {
     super();
     this.state = {
@@ -26,5 +26,17 @@ class Editor extends Component {
     );
   }
 }
+
+const Editor = () => (
+  <iframe
+    src="https://zju-incas.github.io/chaincodedesigner/"
+    style={{ width: "100%", height: "780px" }}
+    scrolling="no"
+    border="0"
+    frameBorder="no"
+    framespacing="0"
+    allowFullScreen="true"
+  />
+);
 
 export default Editor;

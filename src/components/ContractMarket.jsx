@@ -20,7 +20,7 @@ class ContractMarket extends Component {
                 <Card.Header>Dispatch Contract</Card.Header>
                 <Card.Meta>Contract of dispatch actions.</Card.Meta>
                 <Card.Description>
-                  This contract is used to dispatch action in{" "}
+                  This contract is used to dispatch action in
                   <strong>different ways</strong>.
                 </Card.Description>
               </Card.Content>
