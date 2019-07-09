@@ -78,8 +78,7 @@ module.exports = function(proxy, allowedHost) {
     historyApiFallback: {
       // Paths with dots should still use the history fallback.
       // See https://github.com/facebook/create-react-app/issues/387.
-      disableDotRule: true,
-      rewrites: [{ from: /^\/admin.html/, to: "/build/admin.html" }]
+      disableDotRule: true
     },
     public: allowedHost,
     proxy,
