@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import SideMenu from "../components/SideMenu";
 
 class Editor1 extends Component {
   constructor() {
@@ -28,15 +29,22 @@ class Editor1 extends Component {
 }
 
 const Editor = () => (
-  <iframe
-    src="https://zju-incas.github.io/chaincodedesigner/"
-    style={{ width: "100%", height: "780px" }}
-    scrolling="no"
-    border="0"
-    frameBorder="no"
-    framespacing="0"
-    allowFullScreen="true"
-  />
+  <div>
+    <div>
+      <SideMenu />
+    </div>
+    <div style={{ margin: "10px 10px 10px 160px" }}>
+      <iframe
+        src="https://zju-incas.github.io/chaincodedesigner/"
+        style={{ width: "100%", height: "780px" }}
+        scrolling="no"
+        border="0"
+        frameBorder="no"
+        framespacing="0"
+        allowFullScreen="true"
+      />
+    </div>
+  </div>
 );
 
 export default Editor;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import SideMenu from "./components/SideMenu";
 import Home from "./pages/Home";
@@ -15,29 +15,19 @@ import Signup from "./pages/Signup";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
-          <Switch>
-            <Route exact path="/" component={Index} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/signup" component={Signup} />
-            <div>
-              <div>
-                <SideMenu />
-              </div>
-              <div style={{ margin: "10px 10px 10px 160px" }}>
-                {/* Only match one */}
-                <Route exact path="/home" component={Home} />
-                <Route path="/editor" component={Editor} />
-                <Route path="/validate" component={Validate} />
-                <Route path="/publish" component={Publish} />
-                <Route path="/deploy" component={Deploy} />
-                <Route path="/market" component={Market} />
-              </div>
-            </div>
-          </Switch>
+          <Route path="/index" component={Index} />
+          <Route path="/login" component={Login} />
+          <Route path="/signup" component={Signup} />
+          <Route path="/home" component={Home} />
+          <Route path="/editor" component={Editor} />
+          <Route path="/validate" component={Validate} />
+          <Route path="/publish" component={Publish} />
+          <Route path="/deploy" component={Deploy} />
+          <Route path="/market" component={Market} />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

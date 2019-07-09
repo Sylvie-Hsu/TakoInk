@@ -1,14 +1,22 @@
 import React, { Component } from "react";
 import DividePanel from "../components/DividePanel";
 import ValidateReport from "../components/ValidateReport";
+import SideMenu from "../components/SideMenu";
 
 class Validate extends Component {
   state = {};
   render() {
     return (
       <div>
-        <DividePanel />
-        <ValidateReport />
+        <div>
+          <SideMenu />
+        </div>
+        <div style={{ margin: "10px 10px 10px 160px" }}>
+          <div>
+            <DividePanel />
+            <ValidateReport />
+          </div>
+        </div>
       </div>
     );
   }

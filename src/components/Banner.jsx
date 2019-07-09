@@ -49,7 +49,7 @@ class Banner extends React.PureComponent {
                       <Button
                         primary
                         onClick={() => {
-                          window.location.href = "/login";
+                          window.location.href = "#/login";
                         }}
                       >
                         开始使用
