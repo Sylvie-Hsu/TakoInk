@@ -10,7 +10,7 @@ class Market extends Component {
       <div>
         <SearchBar />
         <ContractMarket />
-        <FeedBack />
+        {/* <FeedBack /> */}
       </div>
     );
   }
