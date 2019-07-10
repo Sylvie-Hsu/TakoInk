@@ -44,7 +44,7 @@ class Login extends Component {
       formData.append("userPsw", this.state.psw);
       $.ajax({
         type: "POST",
-        url: "/auth/signin",
+        url: "http://47.98.250.14:8080/auth/signin",
         data: formData,
         success: function(data) {
           console.log(data);

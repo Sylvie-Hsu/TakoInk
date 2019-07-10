@@ -26,8 +26,8 @@ class PublishForm extends Component {
     formData.append("contractCont", this.state.contractCont);
     var url =
       this.state.uploadMethod == "market"
-        ? "/fnc/postmarketcontract"
-        : "/fnc/postusercontract";
+        ? "http://47.98.250.14:8080/fnc/postmarketcontract"
+        : "http://47.98.250.14:8080/fnc/postusercontract";
     $.ajax({
       type: "POST",
       url: url,

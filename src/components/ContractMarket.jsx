@@ -19,7 +19,7 @@ class ContractMarket extends Component {
     formData.append("userId", this.props.id);
     $.ajax({
       type: "POST",
-      url: "/fnc/getmarketcontract",
+      url: "http://47.98.250.14:8080/fnc/getmarketcontract",
       data: formData,
       success: function(data) {
         console.log(data);

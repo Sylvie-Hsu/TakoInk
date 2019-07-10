@@ -52,7 +52,7 @@ class Signup extends Component {
       formData.append("userPsw", this.state.psw);
       $.ajax({
         type: "POST",
-        url: "/auth/signup",
+        url: "http://47.98.250.14:8080/auth/signup",
         data: formData,
         success: function(data) {
           console.log(data);

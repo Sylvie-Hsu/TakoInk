@@ -14,7 +14,7 @@ class ContractList extends Component {
     formData.append("userId", this.props.id);
     $.ajax({
       type: "POST",
-      url: "/fnc/getusercontract",
+      url: "http://47.98.250.14:8080/fnc/getusercontract",
       data: formData,
       success: function(data) {
         console.log(data);
